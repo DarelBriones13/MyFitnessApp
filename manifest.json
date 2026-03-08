@@ -1,0 +1,48 @@
+{
+  "name": "Workout Splits App",
+  "short_name": "Workouts",
+  "description": "Track your workout splits and progress with a modern PWA",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#e60000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "fitness", "lifestyle"],
+  "screenshots": [
+    {
+      "src": "screenshot1.png",
+      "sizes": "540x720",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Today's Workout",
+      "short_name": "Today",
+      "description": "View today's workout plan",
+      "url": "/?view=workouts",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Progress",
+      "short_name": "Progress",
+      "description": "View your progress and PRs",
+      "url": "/?view=progress",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
